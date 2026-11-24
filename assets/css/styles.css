@@ -472,7 +472,8 @@ section { padding: 88px 0; }
 }
 .footer-links ul li { margin-bottom: 10px; }
 .footer-links a, .footer-contact p { font-size: 0.95rem; color: rgba(241,237,227,0.78); }
-.footer-links a:hover { color: var(--white); }
+.footer-links a:hover, .footer-contact a:hover { color: var(--white); }
+.social-link { display: inline-flex; align-items: center; gap: 8px; }
 .footer-links a.is-active { color: var(--white); }
 .footer-bottom {
   display: flex;
